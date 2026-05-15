@@ -1,2 +1,2 @@
-const Checkout = () => <div>Checkout</div>;
+const Checkout = () => <div>CHECKOUT</div>;
 export default Checkout;
