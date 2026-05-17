@@ -390,6 +390,7 @@ body {
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
+  border-left: 4px solid #0f172a;
 }
 
 .cart-item-image {
