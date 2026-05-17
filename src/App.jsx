@@ -1,3 +1,4 @@
+// Main App component - sets up routing with lazy loading 
 import { Suspense, lazy } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -58,7 +59,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    // 404 route 
+    // 404 route
     path: "*",
     element: (
       <Suspense fallback={<div className="loading">LOADING...</div>}>
