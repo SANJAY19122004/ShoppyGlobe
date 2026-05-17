@@ -1,16 +1,76 @@
-# React + Vite
+# ShoppyGlobe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic e-commerce app built with React and Vite.
 
-Currently, two official plugins are available:
+## Repository Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://github.com/SANJAY19122004/ShoppyGlobe
 
-## React Compiler
+## What it does
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse products fetched from an API
+- Search products by name
+- View detailed info about each product
+- Add products to cart
+- Adjust quantity or remove items from cart
+- Checkout with form validation
+- Order placement clears cart and redirects home
+- 404 page for unknown routes
 
-## Expanding the ESLint configuration
+## Built with
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Vite
+- React Router DOM (createBrowserRouter)
+- Redux Toolkit
+- CSS
+
+## How to run
+
+Make sure Node.js is installed.
+
+1. Clone the repo:
+bash
+   git clone https://github.com/SANJAY19122004/ShoppyGlobe.git
+   cd ShoppyGlobe
+
+2. Install packages:
+bash
+   npm install
+
+3. Start the app:
+bash
+   npm run dev
+
+4. Open `http://localhost:5173` in your browser
+
+## Folder structure
+
+src/
+|--components/
+│   |-- Header.jsx
+│   |-- ProductList.jsx
+│   |-- ProductItem.jsx
+│   |-- ProductDetail.jsx
+│   |-- Cart.jsx
+│   |-- CartItem.jsx
+|--pages/
+│   |-- Checkout.jsx
+│   |-- NotFound.jsx
+|--store/
+│   |-- store.js
+│   |-- cartSlice.js
+│   |-- searchSlice.js
+|--hooks/
+│   |-- useFetchProducts.js
+|--App.jsx
+|-- main.jsx
+
+## How to use
+
+- Browse products on the home page
+- Use search bar to filter products by name
+- Click any product to view full details
+- Click Add to Cart to add products
+- Go to Cart to manage quantities or remove items
+- Click Checkout to place your order
