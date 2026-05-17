@@ -1,12 +1,12 @@
-# ShoppyGlobe
+# SHOPPYGLOBE
 
 A basic e-commerce app built with React and Vite.
 
-## Repository Link
+## REPOSITORY LINK
 
 https://github.com/SANJAY19122004/ShoppyGlobe
 
-## What it does
+## WHAT IT DOES
 
 - Browse products fetched from an API
 - Search products by name
@@ -17,7 +17,7 @@ https://github.com/SANJAY19122004/ShoppyGlobe
 - Order placement clears cart and redirects home
 - 404 page for unknown routes
 
-## Built with
+## BUILT WITH
 
 - React 18
 - Vite
@@ -25,7 +25,7 @@ https://github.com/SANJAY19122004/ShoppyGlobe
 - Redux Toolkit
 - CSS
 
-## How to run
+## HOW TO RUN
 
 Make sure Node.js is installed.
 
@@ -44,7 +44,7 @@ bash
 
 4. Open `http://localhost:5173` in your browser
 
-## Folder structure
+## FOLDER STRUCTURE
 
 src/
 |--components/
@@ -66,7 +66,7 @@ src/
 |--App.jsx
 |-- main.jsx
 
-## How to use
+## HOW TO USE
 
 - Browse products on the home page
 - Use search bar to filter products by name
