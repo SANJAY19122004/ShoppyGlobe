@@ -60,7 +60,7 @@ const Checkout = () => {
     // Redirect to home page after 2 seconds
     setTimeout(() => {
       navigate("/");
-    }, 2000);
+    }, 3000);
   };
 
   // If cart is empty redirect message
