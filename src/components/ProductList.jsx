@@ -41,7 +41,7 @@ const ProductList = () => {
       <input
         type="text"
         className="search-bar"
-        placeholder="Search products..."
+        placeholder="Search by product name..."
         value={searchQuery}
         onChange={(e) => dispatch(setSearchQuery(e.target.value))}
       />
