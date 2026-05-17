@@ -74,3 +74,5 @@ src/
 - Click Add to Cart to add products
 - Go to Cart to manage quantities or remove items
 - Click Checkout to place your order
+
+## REMOVED NODE MODULES BEFORE SUBMISSION
