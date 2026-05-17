@@ -634,6 +634,8 @@ body {
   font-size: 6rem;
   font-weight: 800;
   color: #0f172a;
+  text-shadow: 4px 4px 0px #e2e8f0;
+  letter-spacing: -4px;
 }
 
 .notfound-title {
